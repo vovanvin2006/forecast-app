@@ -14,7 +14,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 from streamlit_autorefresh import st_autorefresh
 
 st.set_page_config(page_title="Stock Forecast 30D App", layout="wide")
-st.title("📈 App dự báo giá cổ phiếu 30 ngày tới")
+st.title("📈 App dự báo giá cổ phiếu")
 st.caption("Dán link dữ liệu hoặc upload file CSV/XLSX → app tự làm sạch dữ liệu, huấn luyện mô hình và vẽ dashboard dự báo.")
 
 with st.sidebar:
